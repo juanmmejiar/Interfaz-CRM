@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+	font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+	color: #202724;
+	background: #f5f5f1;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-optical-sizing: auto;
+	font-weight: 400;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	min-width: 320px;
+	min-height: 100vh;
+	margin: 0;
+}
+
+button,
+input,
+textarea {
+	font: inherit;
+}
+
+button {
+	cursor: pointer;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+	outline: 3px solid #e59a5b;
+	outline-offset: 2px;
+}
+
+::selection {
+	color: #17211d;
+	background: #f0c59e;
+}
